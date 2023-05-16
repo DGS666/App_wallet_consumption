@@ -1,0 +1,1 @@
+# App_wallet_consumption
