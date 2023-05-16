@@ -31,6 +31,9 @@ database.sql
 https://github.com/DGS666/App_wallet_consumption.git
 ```
 # 技术
+
 Spring Boot
+
 Mybatis-Plus
+
 MySQL
