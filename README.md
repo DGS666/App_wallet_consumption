@@ -18,8 +18,9 @@ POST: http://localhost:8080/wallet/refund/2
 ```
 GET: http://localhost:8080/transactions/refund/2
 ```
-# 项目代码包含1个分支：
+# 项目代码包含2个分支：
 - master : 主分支，包含完整版代码
+- main : 空
 # 下载
 克隆完整项目
 ```
