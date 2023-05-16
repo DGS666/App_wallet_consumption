@@ -10,8 +10,9 @@ CREATE TABLE wallet (
   user_id BIGINT NOT NULL,
   balance DECIMAL(10, 2) NOT NULL,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  FOREIGN KEY (user_id) REFERENCES users (id)
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+--  ,
+--  FOREIGN KEY (user_id) REFERENCES users (id)
 );
 
 -- 创建钱包交易记录表
@@ -20,8 +21,9 @@ CREATE TABLE wallet_transaction (
   user_id BIGINT NOT NULL,
   amount DECIMAL(10, 2) NOT NULL,
   transaction_type ENUM('CONSUME', 'REFUND', 'WITHDRAW') NOT NULL,
-  transaction_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-  FOREIGN KEY (user_id) REFERENCES wallet (id)
+  transaction_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+--  ,
+--  FOREIGN KEY (user_id) REFERENCES wallet (user_id)
 );
 
 -- 插入用户数据
