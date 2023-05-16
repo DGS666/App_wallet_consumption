@@ -16,7 +16,7 @@ POST: http://localhost:8080/wallet/refund/2
 ```
 4. 查询用户2钱包金额变动明细的接口
 ```
-GET: http://localhost:8080/transactions/refund/2
+GET: http://localhost:8080/transactions/transactions/2
 ```
 # 数据库文件
 ```
