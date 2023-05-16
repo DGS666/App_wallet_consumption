@@ -18,6 +18,10 @@ POST: http://localhost:8080/wallet/refund/2
 ```
 GET: http://localhost:8080/transactions/refund/2
 ```
+# 数据库文件
+```
+database.sql
+```
 # 项目代码包含2个分支：
 - master : 主分支，包含完整版代码
 - main : 空
