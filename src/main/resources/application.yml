@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: App_wallet_consumption
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/walletdatas?useSSL=false&serverTimezone=UTC
+    username: root
+    password:
+mybatis-plus:
+  type-aliases-package: com.dgs.entity # 别名扫描包
