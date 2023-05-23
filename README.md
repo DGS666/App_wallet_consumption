@@ -28,7 +28,7 @@ database.sql
 # 下载
 克隆完整项目
 ```
-https://github.com/DGS666/App_wallet_consumption.git
+https://github.com/DGS666/App_wallet_consumption
 ```
 # 技术
 
